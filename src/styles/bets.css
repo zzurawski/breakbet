@@ -1,0 +1,56 @@
+.betting-main-container{
+    background-color: #1c130d;
+    color: #9c6644;
+}
+
+header{
+    margin-bottom: 20%;
+    font-size: small;
+    text-align: center;
+    border-bottom: 2px solid #e6ccb2;
+    height: fit-content;
+
+    .user-info{
+        float: right;
+        width: 50%;
+    }
+
+    .logo-container{
+        width: 50%;
+    }
+}
+
+.bet-type{
+    
+    padding-bottom: 10%;
+}
+
+.button-container{
+    display: flex;
+
+    button{
+        border-radius: 10px;
+        background-color: #b08968;
+        color: #1c130d;
+        font-size: xx-large;
+        font-weight: bold;
+
+        p{
+            font-size: x-small;
+            margin: 0;
+        }
+    }
+}
+
+#submit{
+    border: 0;
+    border-top: 1px solid ;
+    margin-top: 5%;
+    background-color: #1c130d;
+    color: #e6ccb2;
+    font-size: x-large;
+}
+
+.wager-container{
+    display: none;
+}
